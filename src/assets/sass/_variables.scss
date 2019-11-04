@@ -1,0 +1,6 @@
+$font-color-base: #172b4d;
+$shadowColor: rgba(9, 30, 66, 0.25);
+
+@function asset($path) {
+  @return url("~@/assets/#{$path}");
+}
